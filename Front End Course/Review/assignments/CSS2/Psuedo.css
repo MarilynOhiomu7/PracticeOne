@@ -1,0 +1,66 @@
+/*Staling Anchor links (<a>) */
+/*
+    Links have different states
+        (1) a:link - a normal unvisited link
+        (2) a:visited - may be a different color after its been visited
+        (3) a:hover - activated by holding mouse over a link 
+        (4) a:focus - for when you want to tab through links in place of or with hover (good for touch screens or no mouse equipment)
+        (5) a:active - while the link is being clicked it will change color
+
+    The order you put the links in matter
+        (1) A:HOVER and/or A:FOCUS must come AFTER A:LINK
+        (2)A:VISITED and/or A:ACTIVE must come AFTER A:HOVER
+*/
+        /* link state #1*/
+        a {
+            display: block;
+            margin: auto;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            padding: 20px;
+            background: rgb(20, 220, 210);
+            width: 100px;
+            height: 25px;
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none; /* text decoration refers to line decoration*/
+        }
+
+
+        /* link state #2*/
+        a:hover {
+            background: rgb(241, 211, 221);
+            text-decoration: underline;
+        }
+                    /*and*/
+        a:focus {
+            background: rgb(241, 211, 221);
+            text-decoration: underline;
+        }
+        /*you only need to enter/change the values that changed*/
+
+
+        /* link state #3 */
+        a:active {
+            border: 3px solid #453;
+        }
+        /*you can also add values that were not in original link state*/
+
+        #w3s {
+            display: inline;
+            margin: 0;
+            margin-top: 0;
+            padding: 0;
+            background:none;
+            color: blue;
+            width:0;
+            height: 0;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        li {
+            line-height: 20px;
+        }

@@ -1,0 +1,111 @@
+*{
+    margin: 0 ;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+
+table {
+    border: 3.5px solid black;
+    border-radius:25px;
+    text-align: center; 
+}
+
+th { 
+    text-align: center;
+    padding-left: 50px;   
+    padding-right: 50px;
+}
+
+
+td { 
+    padding-top:10px;
+    padding-bottom:100px;
+    padding-left: 10px;
+    text-align:left;
+    border: 2px solid black;
+    
+}
+
+#days {
+    padding-top:15px;
+    background-color: darkgrey;
+}
+
+/*h1 { }*/
+
+.rightbottom {
+    border-radius: 0 0 23px;
+}
+
+.leftbottom{
+    border-radius: 0 0 0 22px;
+}
+
+.title {
+    padding-bottom: 25px;
+    padding-top:25px;
+    background-color: cadetblue;
+    border-radius: 23px 23px 0 0;
+    border-bottom: 2px solid black;
+    font-size: 50px; 
+}
+
+.nov {
+    color: rgb(132, 131, 131);
+    background-color: rgba(221, 209, 194, 0.487);
+}
+
+span {
+    text-align:center;
+    display: inline;
+    font-size: smaller;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+    color: crimson;
+
+}
+
+.Dates {
+    text-align:center;
+    display: block;
+    font-size: smaller;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.Reminders{
+    text-decoration:underline;
+    padding-left: 725px;
+    font-weight: bold;}
+
+td:hover>span {
+    text-align:center;
+    display: block;
+    font-size: smaller;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+    text-decoration: underline;
+}
+
+td:active>span {
+    text-align:center;
+    display: block;
+    font-size: smaller;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+    color: rgb(162, 0, 255);
+}
+
+

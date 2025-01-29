@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    Border: 0;
+    outline: 0;
+    font-size: 100%;
+    font:inherit;
+    
+}
+
+Body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+Header{
+    padding:2% 12% 15%;
+    background:#431010 ;
+    color: #ffffff;
+    position: static;
+}
+/* min height makes sure content does not overflow outside of banner area when adjusting browser screen, text should not need overflow */
+
+h1{ 
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 3vh;
+    
+}
+
+h2 {
+    margin-top: 2vh;
+    font-size: 28px;
+}
+
+
+
+
+nav{
+    float: right;
+    margin-top: 3.5vh;
+
+}
+
+a {
+    color: #ffffff;
+    padding: 0% 2% 0%;
+}
+
+img{
+    width: 390px;
+    float: right;
+    display: block;
+    
+} /* add psuedo element to make image disapeare and menu icon appears in its place. see T+C site for example */
+
+.HeaderButton{
+    color: #000000;
+    white-space: nowrap;
+}
+
+button{
+    border-radius:25px;
+    padding: 16px 32px 16px;
+    background-color: bisque; 
+}

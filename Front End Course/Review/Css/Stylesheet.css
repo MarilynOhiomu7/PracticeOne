@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.One{
+    margin: 16px;
+    padding: 16px;
+    border: 16px;
+    background-color: rgb(182, 178, 178);
+    width: 20vw;
+}
+
+/* Attribut Selectors */
+/* used to selecet specific attributes, for instance here we would like all attributes with the words "target= "_Blank" to have all of the same values  */
+a[target="_Blank"]{
+    display: block;
+    color: rgb(35, 140, 34);
+    font-size: 30px;
+}
+
+/* (^) means to match the beggining
+        Ex: a[href^='http://'] = any link that beggins with 'http://' style this way
+
+    ($) means to match the end
+         Ex: a[href$='.org'] = any link that ends with '.org' style this way
+    (*) means any link with a specific word
+        Ex: a[alt*='Bird'] = Any link with an alternitive text that reads 'Bird' 
+*/
+/* using a wild card (*) attribute selector selects any link that has a specific word. Here we used any link that has the word recipe  */
+a[alt*='Recipe'] {
+    display: inline-block;
+    color: rgb(181, 93, 127);
+    font-size: 30px;
+}
+
+

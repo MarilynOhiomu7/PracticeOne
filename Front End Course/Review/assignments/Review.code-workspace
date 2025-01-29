@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Review"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assignments"
+	}
+}

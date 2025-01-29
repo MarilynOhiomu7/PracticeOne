@@ -1,0 +1,71 @@
+/* Original Code from Ass4.html */
+Body{
+    background: #B3b3b3;
+    font-size: 150%;margin:4%
+}
+
+Header{
+    background: #666666;
+    text-align: center;
+    padding: 15px;}
+
+H1{
+    color:#ffffff;
+}
+
+nav{
+    font-variant:small-caps ;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.half{
+    width:45% ;
+    display: inline-block;
+    float:left;
+    margin-right: 2%;
+}
+
+.whole{
+    clear: both;
+}
+
+H2{
+    color: #666666;
+    background: #00B7EA;
+}
+
+details{
+    font-style:italic;
+}
+
+summary{
+    font-style: normal;
+}
+
+Footer{
+    background: #666666;clear:both
+}
+
+img{
+    width: 75px;
+}
+
+
+/*Prefixes (Gradient) - Prefixes are used for websites that may not support certain css rules; this helps makes the webpage more accessable*/
+/* Always put in a solid background color just in case gradient does not appear EVEN WITH Prefixes  */
+Header,footer{
+    Background:#666666;
+    Background:linear-gradient(top, #666666 0%, #00b7ea);
+
+    Background:-moz-linear-gradient(top, #666666 0%, #00b7ea);
+    Background: -webkit-linear-gradient(top, #666666 0%, #00b7ea);
+    Background: -o-linear-gradient(top, #666666 0%, #00b7ea);
+}
+
+
+/* Stlyle All links within nav bar (only links); dont forget, links are "by nature" inline elements so must add a block or inline block tag to adjust height and witdh */
+nav a {
+    display: inline-block;
+    background: #ffffff;
+}

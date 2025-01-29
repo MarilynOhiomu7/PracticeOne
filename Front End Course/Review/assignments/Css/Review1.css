@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+  background-color: black;
+  margin: 2em;
+}
+
+header {
+  background-image: url("/assignments/img/PlantBack.jpeg");
+  height: 20em;
+  opacity: 85%;
+  background-color: green;
+  display: block;
+  position: relative;
+  
+}
+
+nav {
+  text-align: center;
+  font-size: 120px;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+  height: 15vh;
+}
+
+
+.button {
+  background-color: rgba(234, 223, 201,.90);
+  color: rgb(1, 12, 1);
+  padding: 20px 100px;
+  margin: 40px 25px;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 15% ;
+  font-weight:bold;
+  
+}
+
+.Tittle {
+  color: beige;
+  text-align: center;
+  padding-top: 25px ;
+  font-size: 95px;
+}
+
+a {
+  background-color: beige;
+  text-decoration: none;
+  color: rgb(2, 27, 2);
+}
+
+
+a:hover {
+  background-color: beige ;
+  text-decoration: none;
+  color: brown;
+}
+
+a:active {
+  color: brown ;
+  border-radius: 8px;
+  font-weight:bold;
+  border: 3px solid black;
+  outline: 2px solid beige;
+  outline-offset: .1px;
+}
+
+.Left {
+  
+  height: 110em;
+  float: left;
+  background-color: rgba(140, 198, 166, 0.263);
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 25vw;
+
+}
+
+.Right {
+  float: right;
+  text-align: left;
+  width: 73%;
+  height: 110em;
+  background-color:rgba(5, 60, 28, 0.522);
+  padding:0;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+}
+
+h1 {
+  color: white;
+  padding-top: 140px;
+  padding-left: 120px;
+}
+
+p {
+  padding-top: 25px;
+  padding-left: 125px;
+  padding-right: 120px;
+  color: white;
+  width: 80%;
+}
+
+img {
+  margin: 75px;
+  position: relative;
+  display: block;
+  align-items: center;
+}
+
+/* Need to figure out how to keep button on visited (current) page individually */
+
